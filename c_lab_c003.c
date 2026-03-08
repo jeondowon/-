@@ -27,7 +27,7 @@ int main(){
 		if(menu==0) break;
 		else if(menu==1) {
 			if(mcount>=10) {
-				printf("정원 초과입니다. 등록불가!\n");
+				printf("정원 초과입니다.\n");
 				continue;
 			}
 			printf("학생 이름은? > ");
@@ -39,7 +39,7 @@ int main(){
 		}
 		else if(menu==2) {
 			if(wcount>=10) {
-				printf("정원 초과입니다. 등록불가!\n");
+				printf("정원 초과입니다.\n");
 				continue;
 			}
 			printf("학생 이름은? > ");
